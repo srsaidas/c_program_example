@@ -16,15 +16,21 @@
 
  int main(int argc, char * argv[])
  {
+
    // Variable declartion
    int number;
 
    // Checking number is passed through Command line
+
+   int number;
+
+
    if (argc < 2)
    {
      printf("Not enough number of arguments \n");
      return -1;
    }
+
 
    // Converting command line argumnet  string to int
    number = atoi(argv[1]);
@@ -35,7 +41,13 @@
 
 
    // number is 0 is not oven or odd Neither postive ornegative
-   /
+
+
+   number = atoi(argv[1]);
+
+   printf("%d is ", number);
+
+
    if (number == 0)
    {
      printf(" is Neither odd/even or Postive/ Negative \n");
