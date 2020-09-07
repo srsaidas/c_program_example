@@ -1,3 +1,8 @@
+/*
+Program will convert Celsius to fahrenheit.
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
